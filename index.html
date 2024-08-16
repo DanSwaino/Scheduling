@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scheduling Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Scheduling Page</h1>
+    <form id="scheduleForm">
+        <label for="entryLocation">Entry Location:</label>
+        <input type="text" id="entryLocation" name="entryLocation" required><br>
+
+        <label for="storageLocation">Storage Location:</label>
+        <input type="text" id="storageLocation" name="storageLocation" required><br>
+
+        <label for="batchNumber">Batch Number:</label>
+        <input type="text" id="batchNumber" name="batchNumber" required><br>
+
+        <label for="weight">Weight (kg):</label>
+        <input type="number" id="weight" name="weight" step="0.01" required><br>
+
+        <label for="width">Width (cm):</label>
+        <input type="number" id="width" name="width" step="0.01" required><br>
+
+        <label for="gauge">Gauge:</label>
+        <input type="number" id="gauge" name="gauge" step="0.01" required><br>
+
+        <label for="product">Product:</label>
+        <input type="text" id="product" name="product" required><br>
+
+        <label for="top">Top:</label>
+        <input type="text" id="top" name="top" required><br>
+
+        <label for="back">Back:</label>
+        <input type="text" id="back" name="back" required><br>
+
+        <label for="colorName">Color Name:</label>
+        <input type="text" id="colorName" name="colorName" required><br>
+
+        <label for="customerName">Customer Name:</label>
+        <input type="text" id="customerName" name="customerName" required><br>
+
+        <label for="metres">Metres:</label>
+        <input type="number" id="metres" name="metres" step="0.01" required><br>
+
+        <label for="min">Min:</label>
+        <input type="number" id="min" name="min" required><br>
+
+        <label for="max">Max:</label>
+        <input type="number" id="max" name="max" required><br>
+
+        <label for="bore">Bore:</label>
+        <input type="number" id="bore" name="bore" step="0.01" required><br>
+
+        <label for="pack">Pack:</label>
+        <input type="number" id="pack" name="pack" required><br>
+
+        <label for="speed">Speed:</label>
+        <input type="number" id="speed" name="speed" required><br>
+
+        <label for="minutes">Minutes:</label>
+        <input type="number" id="minutes" name="minutes" required><br>
+
+        <label for="finishTime">Finish Time:</label>
+        <input type="time" id="finishTime" name="finishTime" required><br>
+
+        <button type="submit">Save</button>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
